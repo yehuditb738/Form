@@ -5,29 +5,3 @@
   color: #2b6363;
 }
 
-form{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-input{
-  margin: 0.5rem 0;
-  padding: 0.8rem;
-  outline: none;
-  width: 30%;
-  
-}
-
-.submit{
-  border: 2px solid #2b6363 !important;
-  cursor: pointer;
-}
-
-h3 {
-  font-size: medium;
-  font-weight: 400;
-  margin: 0.2rem;
-}

@@ -1,21 +1,16 @@
-import useForm from '../../src/Hooks/useForm'
-import InputFiled from './InputFiled';
-// import {
-//     useNavigate
-// } from 'react-router-dom';
+import useForm from '../../Hooks/useForm'
+import InputFiled from '../InputFiled';
+import "./index.css";
+
 import { useState } from 'react'
-import WelcomePage from '../components/WelcomePage'
+import WelcomePage from '../WelcomePage'
 const Form = () => {
     const [isSubmit, setIsSubmit] = useState(false)
-    //const navigate = useNavigate();
-
     //Final submit function
     const formLogin = () => {
-        //navigate('/welcom')
         setIsSubmit(true)
     }
 
-    //Custom hook call
     const { handleChange, values, errors, handleSubmit } = useForm(formLogin);
     debugger
     if (isSubmit === false)
