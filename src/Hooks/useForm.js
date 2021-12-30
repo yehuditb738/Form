@@ -11,12 +11,10 @@ const useForm = (callback) => {
 
 
     const validate = (event, name, value) => {
-        debugger
 
         //A function to validate each input values
         switch (name) {
             case 'ID':
-                debugger
                 if (value.length === 0) {
                     // we will set the error state
 
@@ -31,7 +29,6 @@ const useForm = (callback) => {
                 }
                 break;
             case 'firstName':
-                debugger
                 if (value.length === 0) {
                     // we will set the error state
 
@@ -46,7 +43,6 @@ const useForm = (callback) => {
                 }
                 break;
             case 'lastName':
-                debugger
                 if (value.length === 0) {
                     // we will set the error state
 
@@ -113,7 +109,6 @@ const useForm = (callback) => {
                 }
                 break;
             case 'confirmPassword':
-                debugger
                 if (value.localeCompare(values.password)) {
                     setErrors({
                         ...errors,
@@ -149,7 +144,6 @@ const useForm = (callback) => {
     }
 
     const handleSubmit = (event) => {
-        debugger
         if (event) event.preventDefault();
 
         if (Object.keys(errors).length === 0 && Object.keys(values).length !== 0) {

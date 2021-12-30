@@ -12,7 +12,6 @@ const Form = () => {
     }
 
     const { handleChange, values, errors, handleSubmit } = useForm(formLogin);
-    debugger
     if (isSubmit === false)
         return (
             <form onSubmit={handleSubmit}>
