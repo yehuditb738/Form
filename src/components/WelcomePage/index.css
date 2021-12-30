@@ -1,0 +1,12 @@
+.spn{
+    font-size: 100px;
+    color: #2b6363;
+    font-weight: 600;
+    margin-top: 70px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

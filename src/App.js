@@ -1,7 +1,8 @@
 import './App.css';
+import React from "react";
 import Form from '../src/components/Form'
-function App() {
 
+function App() {
   return (
     <div className="App">
       <Form />

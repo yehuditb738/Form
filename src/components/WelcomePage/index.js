@@ -1,6 +1,11 @@
+import "./index.css";
 const WelcomePage = (props) => {
+    debugger
+    console.log(props)
     return (
-        <h1>Welcom {props.name.firstName + ' ' + props.name.firstName}</h1>
+        <div className="container">
+            <span className="spn">Welcom {props.val.firstName + ' ' + props.val.lastName}</span>
+        </div>
     );
 }
 

@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background: url('../src/images/pic2.jpg') no-repeat left;
+  height: 100vh;
+  color: #2b6363;
 }
 
 form{
@@ -15,10 +18,11 @@ input{
   padding: 0.8rem;
   outline: none;
   width: 30%;
+  
 }
 
 .submit{
-  border: 2px solid #000 !important;
+  border: 2px solid #2b6363 !important;
   cursor: pointer;
 }
 
